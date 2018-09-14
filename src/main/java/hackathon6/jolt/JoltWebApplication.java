@@ -8,5 +8,7 @@ public class JoltWebApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JoltWebApplication.class, args);
+		
+		new DataStore();
 	}
 }
